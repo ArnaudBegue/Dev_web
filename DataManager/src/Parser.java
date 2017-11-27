@@ -149,9 +149,12 @@ public class Parser {
 		return 0;
 	}
 	
+	
 	public void describe() {
 		for (Enzyme e: this.ez_list) {
+			System.out.println("-----------------");
 			e.infos();
+			System.out.println("-----------------");
 		}
 	}
 	
